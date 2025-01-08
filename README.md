@@ -1,6 +1,7 @@
 # Visual-Programming-PyQT-Lecture-Notes
 This repo contains lecture notes about Visual Programming with PyQT.
 
+![image](https://github.com/user-attachments/assets/b6a25ad7-b4be-4f27-8de0-afcc7e7307a7)
 
 
 Download Link QT Designer : https://build-system.fman.io/qt-designer-download
