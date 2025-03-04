@@ -7,9 +7,15 @@ class Example(QWidget):
     def __init__(self):
         super().__init__()
 
-        self.im = QPixmap("./images/icon.png")
+        self.im = QPixmap("C:/Users/bugra/Documents/GitHub/Visual-Programming-PyQT-Lecture-Notes/Codes/04-pyqt-haftalik-uygulamalar/altincihafta/images/icon.png")
         self.label = QLabel()
         self.label.setPixmap(self.im)
+
+        if self.im.isNull():
+            self.label = QLabel("Resim yüklenemedi!")
+        else:
+            self.label = QLabel()
+            self.label.setPixmap(self.im)
 
         self.grid = QGridLayout()
         self.grid.addWidget(self.label,1,1)
